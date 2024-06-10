@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family-Poppins');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background: pink;
+}
+.container{
+    width: 350px;
+    background: white;
+    padding: 20px;
+    max-height: 850px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.8);
+}
+.container h2{
+    margin-bottom: 10px;
+}
+.container .input-field{
+    width: 100%;
+    height: 35px;
+    border: 2px solid blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1px;
+    padding-left: 5px;
+    border-radius: 5px;
+    
+}
+.input-field i{
+    font-size: 16px;
+    width: 5%;
+    color: blueviolet;
+    /*padding: 5px;*/
+    
+}
+.input-field input{
+    width: 80%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.input-field button{
+    width: 18%;
+    height: 32px;
+    font-size: 20px;
+    border: none;
+    text-align:center;
+    background: #8a2be2;
+    color: white;
+    
+    transition: all ease-in 400ms;
+}
+.input-field button:hover{
+    cursor: pointer;
+    background: rgb(60, 25, 93);
+}
+
+.input-field button i{
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    
+
+}
+.container .list{
+    width: 100%;
+    padding: 10px 10px;
+}
+.container .list ul{
+    width: 100%;
+    list-style: none;
+}
+.container .list ul li{
+    padding: 2px;
+    width: 100%;
+    text-align: start;
+}
+.container .list ul li i{
+    width: 10%;
+}
+.container .list ul span{
+    margin-left: 160px;
+}
+.list ul:has(text){
+    width: 80%;
+}

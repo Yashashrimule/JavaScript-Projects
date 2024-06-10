@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family-Arial, Helvetica, sans-serif');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#164863,#427D9D,#94cfef,#297488);
+}
+.container{
+    width: 700px;
+    height: 350px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+}
+.container h1{
+    color: #164863;
+}
+.container span{
+    color: orangered;
+}
+.container .input-field{
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #427D9D;
+}
+.input-field input{
+    width: 70%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.input-field button{
+    width: 25%;
+    padding: 10px 20px;
+    background: orangered;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 750;
+    transition: all ease 0.4s;
+}
+.input-field button:hover{
+    cursor: pointer;
+    background: #297488;
+    color: white;
+}
+.container .action{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+}
+.container .action img{
+    width: 18%;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction:row ;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
+    
+}
+.container .action h2{
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.container .action h2:nth-child(odd){
+    background: #164863;
+}
+.container .action h2:nth-child(even){
+    background: orangered;
+}
